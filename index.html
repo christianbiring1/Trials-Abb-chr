@@ -10,12 +10,24 @@
     <h1 id="title"></h1>
     <p id="description">A survey is a research method used for collecting data from a predefined group of respondents to gain information and insights into various topics of interest. ... The process involves asking people for information through a questionnaire, which can be either online or offline.</p>
     <form action="" id="survey-form">
-        <label for="name" id="name">Name:</label><br>
-        <input type="text" id="name"><br>
-        <label for="email" id="email">Email:</label><br>
-        <input type="email" id="email" required>
-        <label for="age"  id="number"  > age: </label> <br>
-        <input type="number" id="number" required min="10" max="100" >
+        <label for="name" id="name-label">Name:</label><br>
+        <input type="text" id="name-label" placeholder="Enter your name"><br>
+        <label for="email" id="email-label">Email:</label><br>
+        <input type="email" id="email-label" required placeholder="Enter your email"><br>
+        <label for="age"  id="number-label"  > age: </label> <br>
+        <input type="number" id="number-label" required min="10" max="100" placeholder="Age"><br>
+        <select id="dropdown">
+         <option value="sex">Female</option>
+         <option value="sex"> Male</option>
+         <option value="sex"> Other</option>
+        </select><br>
+        <input type="radio" value="mec"> 
+        <label>mecanic</label><br>
+        <input type="radio" value="elec">
+        <label for="elec">Electrical</label><br>
+        <input type="radio" value="electro">
+        <label for="electro">electronic</label><br>
+
     </form>
 </body>
 </html>
